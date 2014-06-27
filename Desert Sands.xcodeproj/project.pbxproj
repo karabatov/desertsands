@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D12992FB195DF68800FC74FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12992FA195DF68800FC74FF /* Model.swift */; };
 		D179B1B01959F1B9004410EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179B1AF1959F1B9004410EF /* AppDelegate.swift */; };
 		D179B1B21959F1B9004410EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D179B1B11959F1B9004410EF /* GameScene.sks */; };
 		D179B1B41959F1B9004410EF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179B1B31959F1B9004410EF /* GameScene.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D12992FA195DF68800FC74FF /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D179B1AA1959F1B8004410EF /* Desert Sands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desert Sands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D179B1AE1959F1B9004410EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D179B1AF1959F1B9004410EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				D179B1B71959F1B9004410EF /* Main.storyboard */,
 				D179B1BA1959F1B9004410EF /* Images.xcassets */,
 				D179B1AD1959F1B8004410EF /* Supporting Files */,
+				D12992FA195DF68800FC74FF /* Model.swift */,
 			);
 			path = "Desert Sands";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				D179B1B41959F1B9004410EF /* GameScene.swift in Sources */,
 				D179B1B61959F1B9004410EF /* GameViewController.swift in Sources */,
+				D12992FB195DF68800FC74FF /* Model.swift in Sources */,
 				D179B1B01959F1B9004410EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				D179B1CC1959F1B9004410EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D179B1CD1959F1B9004410EF /* Build configuration list for PBXNativeTarget "Desert SandsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				D179B1CF1959F1B9004410EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
