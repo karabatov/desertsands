@@ -21,10 +21,9 @@ class Player {
     }
 }
 
-class ComputerPlayer {
+class ComputerPlayer: Player {
     init() {
-        super.init()
-        name = "Computer Player"
+        super.init(name: "Computer Player")
     }
 }
 
@@ -40,7 +39,7 @@ class Gem {
 }
 
 class GemBag {
-    var bag: Gem[]
+    var bag: Gem[] = []
 }
 
 class Game {
