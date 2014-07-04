@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Desert Sands
+
+  Created by Yuri Karabatov on 04.07.14.
+  Copyright (c) 2014 Yuri Karabatov. All rights reserved.
+*/
+
+/* Default player name */
+"Player" = "Player";
+
+/* Default name for computer player */
+"Computer Player" = "Computer Player";

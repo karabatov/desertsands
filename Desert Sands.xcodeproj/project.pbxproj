@@ -14,7 +14,8 @@
 		D179B1B61959F1B9004410EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179B1B51959F1B9004410EF /* GameViewController.swift */; };
 		D179B1B91959F1B9004410EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D179B1B71959F1B9004410EF /* Main.storyboard */; };
 		D179B1BB1959F1B9004410EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D179B1BA1959F1B9004410EF /* Images.xcassets */; };
-		D179B1C71959F1B9004410EF /* Desert_SandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179B1C61959F1B9004410EF /* Desert_SandsTests.swift */; };
+		D1BFDF4F196710D900FAB05C /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BFDF4E196710D900FAB05C /* ModelTests.swift */; };
+		D1BFDF561967165300FAB05C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1BFDF551967165300FAB05C /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +36,13 @@
 		D179B1B11959F1B9004410EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D179B1B31959F1B9004410EF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D179B1B51959F1B9004410EF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		D179B1B81959F1B9004410EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D179B1BA1959F1B9004410EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D179B1C01959F1B9004410EF /* Desert SandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desert SandsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D179B1C51959F1B9004410EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D179B1C61959F1B9004410EF /* Desert_SandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desert_SandsTests.swift; sourceTree = "<group>"; };
+		D1BFDF4E196710D900FAB05C /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		D1BFDF541967151300FAB05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1BFDF551967165300FAB05C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D1BFDF571967184400FAB05C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +89,10 @@
 				D179B1B31959F1B9004410EF /* GameScene.swift */,
 				D179B1B51959F1B9004410EF /* GameViewController.swift */,
 				D179B1B71959F1B9004410EF /* Main.storyboard */,
+				D12992FA195DF68800FC74FF /* Model.swift */,
+				D1BFDF551967165300FAB05C /* Localizable.strings */,
 				D179B1BA1959F1B9004410EF /* Images.xcassets */,
 				D179B1AD1959F1B8004410EF /* Supporting Files */,
-				D12992FA195DF68800FC74FF /* Model.swift */,
 			);
 			path = "Desert Sands";
 			sourceTree = "<group>";
@@ -104,7 +108,7 @@
 		D179B1C31959F1B9004410EF /* Desert SandsTests */ = {
 			isa = PBXGroup;
 			children = (
-				D179B1C61959F1B9004410EF /* Desert_SandsTests.swift */,
+				D1BFDF4E196710D900FAB05C /* ModelTests.swift */,
 				D179B1C41959F1B9004410EF /* Supporting Files */,
 			);
 			path = "Desert SandsTests";
@@ -199,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D179B1BB1959F1B9004410EF /* Images.xcassets in Resources */,
+				D1BFDF561967165300FAB05C /* Localizable.strings in Resources */,
 				D179B1B21959F1B9004410EF /* GameScene.sks in Resources */,
 				D179B1B91959F1B9004410EF /* Main.storyboard in Resources */,
 			);
@@ -229,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D179B1C71959F1B9004410EF /* Desert_SandsTests.swift in Sources */,
+				D1BFDF4F196710D900FAB05C /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +252,8 @@
 		D179B1B71959F1B9004410EF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D179B1B81959F1B9004410EF /* Base */,
+				D1BFDF541967151300FAB05C /* Base */,
+				D1BFDF571967184400FAB05C /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -17,20 +17,21 @@ class Player {
     }
 
     convenience init() {
-        self.init(name: "Player")
+        self.init(name: NSLocalizedString("Player", comment: "Default player name"))
     }
 }
 
 class ComputerPlayer: Player {
-    init() {
-        super.init(name: "Computer Player")
+    convenience init() {
+        self.init(name: NSLocalizedString("Computer Player", comment: "Default name for computer player"))
     }
 }
 
+enum Color {
+    case Red, Yellow, Green, Purple
+}
+
 class Gem {
-    enum Color {
-        case Red, Yellow, Green, Purple
-    }
     let color: Color
 
     init(color: Color) {
